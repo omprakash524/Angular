@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'meridreamgirl';
+  // title = 'dream-aap';
+  // constructor(){
+  //   setTimeout(() =>{
+  //     this.title = "My microsoft";
+  //   },5000);
+
+  //   this.title = "in living";
+  // }
+title1 = 'dream-microsoft';
+constructor(){
+  setTimeout(() =>{
+    this.title1 = 'google';
+  },8000);
+  this.title1 = 'on going practice';
+}
+  
 }
